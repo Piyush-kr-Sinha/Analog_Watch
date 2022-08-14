@@ -1,0 +1,54 @@
+.full {
+    background: url(https://imgs.search.brave.com/CZ09mwYZnqTncfPtOMGcN9m3USU01acBAwe9Lto6vFw/rs:fit:759:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4z/eWsyNE5xODJCTnlM/RDgtaHZtYl9nSGFF/byZwaWQ9QXBp) no-repeat;
+    background-size: 105%;
+}
+
+#clockContainer {
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+}
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+    background: rgb(250, 4, 4);
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour {
+    width: 1.9%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+}
+
+#minute {
+    width: 1.4%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+}
+
+#second {
+    width: 0.8%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8;
+}
+
+.footer {
+    color: rgb(16, 15, 15);
+    margin-top: 140px;
+    text-align: center;
+    background-color: rgb(50, 230, 37);
+    font-size: larger;
+}
